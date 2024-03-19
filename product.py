@@ -6,6 +6,8 @@ class Product:
         self.name = name
         self.price= price
         self.quantity = quantity
-        
+   
     def calculateTotal(self) -> int:
-        return self.price * self.quantity
+        total = self.price * self.quantity
+        
+        return total
